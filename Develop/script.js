@@ -1,8 +1,10 @@
-$(".time-block").removeClass("future");
-$(".time-block").removeClass("past");
-$(".time-block").removeClass("present");
+// $(".time-block").removeClass("future");
+// $(".time-block").removeClass("past");
+// $(".time-block").removeClass("present");
 
 var present = moment().format("h");
+
+
 
 if (present < 9) {
     $(".time-block").addClass("future");
