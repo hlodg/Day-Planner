@@ -23,7 +23,9 @@ else if (present > 18) {
     $(present_id).prevAll().addClass("past");
 }
 
+// On clicking the same button, get the text in the corrosponding text area
 $(".saveBtn").on("click", function(e) {
-//    console.log(this); 
-
+    var description = $(this).parent().find('.description');
+    var text = description.val();
+    var hour = description.attr('name');
 });
