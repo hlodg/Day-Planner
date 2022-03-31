@@ -2,7 +2,7 @@
 // $(".time-block").removeClass("past");
 // $(".time-block").removeClass("present");
 
-var present = moment().format("h");
+var present = moment().format("H");
 var currentDate= moment().format("dddd, MMMM Do");
 var dateSpace=$("#currentDay");
 
