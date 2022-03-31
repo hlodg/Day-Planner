@@ -3,9 +3,13 @@
 // $(".time-block").removeClass("present");
 
 var present = moment().format("h");
+var currentDate= moment().format("dddd, MMMM Do");
+var dateSpace=$("#currentDay");
 
+// creates the date in header
+dateSpace.append(currentDate);
 
-
+// creates the function that adds css to past, present and future blocks
 if (present < 9) {
     $(".time-block").addClass("future");
 }
@@ -20,5 +24,6 @@ else if (present > 18) {
 }
 
 $(".saveBtn").on("click", function(e) {
-   console.log(this); 
+//    console.log(this); 
+
 });
