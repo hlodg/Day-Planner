@@ -7,3 +7,4 @@ A typical user of this product would want to lay out thier daily schedule. They 
 ##Challenges
 In creating this product, the difficulty came when storing the information. Currently the events get saved on local storage and inputted into the calendar when it is refreshed and opened on that device. It would be great to in the future create the same thing but that has a global storage feature. 
 
+<img width="920" alt="image" src="https://user-images.githubusercontent.com/99451785/161174249-f360a1c1-c8cc-4c24-9bf4-f3eda46a0a0c.png">
